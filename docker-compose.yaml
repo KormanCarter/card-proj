@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  kormans-website:
+    image: card-proj:latest
+    ports:
+      - "3000:3000"
+    deploy:
+      replicas: 3
+  my-website:
+    image: card-proj:latest
+    ports:
+      - "3001:3000"
+    deploy:
+      replicas: 2

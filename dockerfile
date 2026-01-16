@@ -1,7 +1,7 @@
 FROM node:latest
 
 LABEL maintainer="Korman Carter"
-LABEL description="Copies my latest node project"
+LABEL description="Copies my latest node project and deploys it with docker"
 LABEL cohort="cohort-19"
 LABEL Animal = "Panda"
 
